@@ -1,2 +1,11 @@
 plantas.map((arvore)=> arvore.mostrar());
-}
+}extseze(26);
+fill(0);
+text("vamos plantar árvores para reduzir a temperatura?",10,30)
+textsize(14);
+fill('white');
+text("temperatura:" + temperatura.tofixed(2), 10, 390);
+text("árvores plantas:" + totalarvores, 460, 390); 
+text("para movimentar o personagem use as setas do teclado.", 10, 60);
+text("para plantar árvores use p ou espaço.",10 ,80);
+
