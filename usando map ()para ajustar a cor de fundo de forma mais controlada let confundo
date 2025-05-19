@@ -1,0 +1,5 @@
+background(corfundo);
+  mostrarinformacoes();
+  temperatura += 0.1;
+  jardineiro.utilizar();
+  jardineiro.mostrar();
