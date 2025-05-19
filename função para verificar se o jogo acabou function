@@ -1,0 +1,5 @@
+verificarfimdejogo(){
+  if(totalarvores > temperatura){
+    mostrarmensagemdevitoria();
+    } else if (temperatura > 50){
+      mostrarmensagensdederrota();
